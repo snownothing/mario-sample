@@ -1,7 +1,6 @@
 package com.mario.demo.controller;
 
 import java.util.List;
-import java.util.Map;
 
 import com.junicorn.mario.db.MarioDb;
 import com.junicorn.mario.servlet.wrapper.Request;
