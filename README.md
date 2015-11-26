@@ -13,6 +13,6 @@ http://localhost:9000/
 http://localhost:9000/hello
 # 展示html视图
 http://localhost:9000/html
-# 查询数据库并返回所有用户
+# CRUD
 http://localhost:9000/users
 ```
