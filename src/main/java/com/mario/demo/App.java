@@ -10,6 +10,7 @@ public class App implements Bootstrap {
 	public void init(Mario mario) {
 		Index index = new Index();
 		mario.addRoute("/", "index", index);
+		mario.addRoute("/hello", "hello", index);
 		mario.addRoute("/html", "html", index);
 	}
 	

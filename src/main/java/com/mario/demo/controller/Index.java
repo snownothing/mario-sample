@@ -6,6 +6,11 @@ import com.junicorn.mario.servlet.wrapper.Response;
 public class Index {
 	
 	public void index(Request request, Response response){
+		request.attr("name", "王爵");
+		response.render("index");
+	}
+	
+	public void hello(Request request, Response response){
 		response.text("hello");
 	}
 	
