@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mario-demo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="mario-sample.war">
+      <element id="artifact" artifact-name="mario-demo:war exploded" />
+    </root>
+  </artifact>
+</component>
