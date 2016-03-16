@@ -13,6 +13,9 @@ import java.util.Enumeration;
  * Created by Moch on 3/15/16.
  */
 
+// 可以配置 web.xml 来映射路径
+// 也可以使用如下注解方式来映射路径与 servlet 关系
+//@WebServlet("/Hello")
 public class HelloFormServlet extends HttpServlet {
     public void doGet(HttpServletRequest request,
                       HttpServletResponse response)

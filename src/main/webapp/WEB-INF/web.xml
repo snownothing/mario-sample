@@ -123,5 +123,31 @@
 	</servlet-mapping>
 
 
+	<context-param>
+		<description>Location to store uploaded file</description>
+		<param-name>file_upload</param-name>
+		<param-value>
+			/Users/Moch/Downloads/
+		</param-value>
+	</context-param>
+
+
+	<servlet>
+		<servlet-name>Upload</servlet-name>
+		<servlet-class>com.mochxiao.servlets.UploadServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Upload</servlet-name>
+		<url-pattern>/Upload</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PageHitCounter</servlet-name>
+		<servlet-class>com.mochxiao.servlets.PageHitCounter</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PageHitCounter</servlet-name>
+		<url-pattern>/PageHitCounter</url-pattern>
+	</servlet-mapping>
 
 </web-app>
