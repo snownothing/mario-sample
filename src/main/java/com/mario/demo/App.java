@@ -32,7 +32,7 @@ public class App implements Bootstrap {
 		}
 		
 		// 配置数据库
-		MarioDb.init("jdbc:mysql://127.0.0.1:3306/mario_sample", "root", "root");
+		MarioDb.init("jdbc:mysql://127.0.0.1:3306/MXDB", "root", "8008208820");
 		
 	}
 	
