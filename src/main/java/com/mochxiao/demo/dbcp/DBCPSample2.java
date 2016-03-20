@@ -52,4 +52,3 @@ public class DBCPSample2 extends HttpServlet {
     }
 
 }
-
