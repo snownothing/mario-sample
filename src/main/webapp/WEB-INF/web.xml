@@ -11,7 +11,7 @@
 
 	<filter>
 		<filter-name>LogFilter</filter-name>
-		<filter-class>com.mochxiao.filter.LogFilter</filter-class>
+		<filter-class>com.mochxiao.demo.filter.LogFilter</filter-class>
 		<init-param>
 			<param-name>test_param</param-name>
 			<param-value>Initialization Paramter</param-value>
@@ -40,7 +40,7 @@
 	<!-- servlet definition -->
 	<servlet>
 		<servlet-name>ErrorHandler</servlet-name>
-		<servlet-class>com.mochxiao.servlets.error.ErrorHandler</servlet-class>
+		<servlet-class>com.mochxiao.demo.servlets.error.ErrorHandler</servlet-class>
 	</servlet>
 	<!-- servlet mappings -->
 	<servlet-mapping>
@@ -79,7 +79,7 @@
 	<!-- Servlet -->
 	<servlet>
 		<servlet-name>HelloWorld</servlet-name>
-		<servlet-class>com.mochxiao.servlets.HelloWorldServlet</servlet-class>
+		<servlet-class>com.mochxiao.demo.servlets.HelloWorldServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>HelloWorld</servlet-name>
@@ -88,7 +88,7 @@
 
 	<servlet>
 		<servlet-name>HelloForm</servlet-name>
-		<servlet-class>com.mochxiao.servlets.HelloFormServlet</servlet-class>
+		<servlet-class>com.mochxiao.demo.servlets.HelloFormServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>HelloForm</servlet-name>
@@ -97,7 +97,7 @@
 
 	<servlet>
 		<servlet-name>ReadCookies</servlet-name>
-		<servlet-class>com.mochxiao.servlets.ReadCookies</servlet-class>
+		<servlet-class>com.mochxiao.demo.servlets.ReadCookies</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>ReadCookies</servlet-name>
@@ -106,7 +106,7 @@
 
 	<servlet>
 		<servlet-name>DeleteCookies</servlet-name>
-		<servlet-class>com.mochxiao.servlets.DeleteCookies</servlet-class>
+		<servlet-class>com.mochxiao.demo.servlets.DeleteCookies</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>DeleteCookies</servlet-name>
@@ -115,7 +115,7 @@
 
 	<servlet>
 		<servlet-name>SessionTrack</servlet-name>
-		<servlet-class>com.mochxiao.servlets.SessionTrack</servlet-class>
+		<servlet-class>com.mochxiao.demo.servlets.SessionTrack</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>SessionTrack</servlet-name>
@@ -134,7 +134,7 @@
 
 	<servlet>
 		<servlet-name>Upload</servlet-name>
-		<servlet-class>com.mochxiao.servlets.UploadServlet</servlet-class>
+		<servlet-class>com.mochxiao.demo.servlets.UploadServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Upload</servlet-name>
@@ -143,7 +143,7 @@
 
 	<servlet>
 		<servlet-name>PageHitCounter</servlet-name>
-		<servlet-class>com.mochxiao.servlets.PageHitCounter</servlet-class>
+		<servlet-class>com.mochxiao.demo.servlets.PageHitCounter</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>PageHitCounter</servlet-name>
